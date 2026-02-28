@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # 1. Load the dataset
-file_path = 'Incribo/glaucoma_dataset.csv'
+file_path = 'Dataset/glaucoma_dataset.csv'
 df = pd.read_csv(file_path)
 
 # 2. Universal Name Cleaning (Keeps the table looking professional)
@@ -33,4 +33,5 @@ df['age_group'] = pd.cut(df['age'], bins=bins, labels=labels, right=False)
 
 # 6. Export the Full, Polished Dataset
 df.to_csv('cleaned_ocular_health_data.csv', index=False)
+
 print("Success! Cleaned table saved as 'cleaned_ocular_health_data.csv'.")
