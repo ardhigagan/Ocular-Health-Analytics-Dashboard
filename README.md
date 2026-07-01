@@ -33,7 +33,7 @@ This project delivers a robust data analytics solution for triaging 10,000+ clin
 
 ## Authors
 
-### Ardhi Gagan & Satyam Singh
+### Ardhi Gagan & Satyam Singh.
 
 This project was collaboratively developed by **Ardhi Gagan** and **Satyam Singh**.
 
