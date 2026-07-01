@@ -30,3 +30,16 @@ This project delivers a robust data analytics solution for triaging 10,000+ clin
 2. **Transformation:** Standardized column headers (e.g., mapping `intraocular_pressure_(iop)` to `iop`) and performed age-binning.
 3. **Loading:** Exported cleaned data to a SQL database for permanent, indexed storage.
 4. **Visualization:** Developed DAX measures to calculate high-risk alerts (IOP > 21 and CDR > 0.6).
+
+## Authors
+
+### Ardhi Gagan & Satyam Singh
+
+This project was collaboratively developed by **Ardhi Gagan** and **Satyam Singh**.
+
+**Shared Contributions**
+- Designed and implemented the end-to-end ETL pipeline.
+- Performed data cleaning, preprocessing, and feature engineering.
+- Developed the SQLite database and Power BI dashboard.
+- Created DAX measures and interactive visualizations for glaucoma risk assessment.
+- Validated analytical results, tested the workflow, and prepared project documentation.
